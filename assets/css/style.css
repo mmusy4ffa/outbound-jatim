@@ -565,8 +565,27 @@ a {
   white-space: nowrap;
 }
 
+@media (max-width: 991.98px) {
+  .hero-floating-card {
+    position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    margin: 1rem auto 0 auto !important;
+    transform: none !important;
+    max-width: 100% !important;
+    text-align: left;
+  }
+  .hero-image-wrap {
+    transform: none !important;
+  }
+  .hero-image-wrap img {
+    height: 18rem !important;
+  }
+}
+
 @media (max-width: 767.98px) {
   .hero-section { padding-top: 6rem; padding-bottom: 3rem; text-align: center; }
+  .hero-section .d-flex { justify-content: center; }
   h1 { font-size: 2rem !important; line-height: 1.25 !important; }
   .card-action-btns { grid-template-columns: 1fr; }
 }
