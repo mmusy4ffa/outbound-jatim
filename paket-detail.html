@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title id="pkgPageTitle">Detail Paket Outbound - Outbound Jatim</title>
+<meta name="description" id="pkgPageDesc" content="Detail lengkap fasilitas, benefit, dan rundown acara paket outbound dari Outbound Jatim." />
+<meta name="robots" content="index, follow" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main-content">Langsung ke konten utama</a>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar navbar-expand-lg navbar-oj fixed-top py-3">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Outbound<span>Jatim</span></a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Buka menu navigasi">
+      <i class="bi bi-list fs-2 text-navy"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang Kami</a></li>
+        <li class="nav-item"><a class="nav-link active" href="paket.html">Paket Outbound</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog &amp; Insight</a></li>
+        <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak Admin</a></li>
+        <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+          <a class="btn btn-orange w-100" href="#" data-wa-message="Halo Admin Outbound Jatim, saya ingin booking paket outbound. Mohon informasinya.">
+            <i class="bi bi-whatsapp me-1"></i>Chat Admin WA
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main id="main-content">
+  <!-- ============ HERO HEADER PAKET ============ -->
+  <header class="hero-section pb-5" style="padding-top:7rem;">
+    <div class="container">
+      <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="index.html" class="text-white-50">Beranda</a></li>
+          <li class="breadcrumb-item"><a href="paket.html" class="text-white-50">Paket Outbound</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page" id="pkgRegionBreadcrumb">Wilayah</li>
+        </ol>
+      </nav>
+
+      <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+        <span class="badge bg-sky text-white px-3 py-1.5 rounded-pill" id="pkgRegionBadge">Malang</span>
+        <div id="pkgCategoryChips" class="d-inline-flex gap-1"></div>
+      </div>
+
+      <h1 class="display-5 fw-bold text-white mb-3" id="pkgTitle">Judul Paket Loading...</h1>
+      <p class="fs-5 text-white-50 mb-4" style="max-width:44rem;" id="pkgDesc">Deskripsi paket outbound...</p>
+
+      <div class="d-flex flex-wrap align-items-center gap-3">
+        <a class="btn btn-orange btn-lg px-4" href="#" id="waPkgTopBtn">
+          <i class="bi bi-whatsapp me-2 fs-5"></i>Pesan Paket via WhatsApp Admin
+        </a>
+        <a href="kontak.html" class="btn btn-navy-outline">Tanya Admin Dulu</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ OVERVIEW RINGKAS ============ -->
+  <section class="py-4" style="margin-top: -2rem;">
+    <div class="container">
+      <div class="card-oj p-4 shadow-navy">
+        <div class="row g-4 text-center">
+          <div class="col-6 col-md-3 border-end">
+            <div class="text-sky fs-3 mb-1"><i class="bi bi-people-fill"></i></div>
+            <span class="small text-muted-custom d-block">Kapasitas Peserta</span>
+            <strong class="text-navy fs-6" id="pkgPax">20 - 500 Pax</strong>
+          </div>
+          <div class="col-6 col-md-3 border-end">
+            <div class="text-sky fs-3 mb-1"><i class="bi bi-clock-history"></i></div>
+            <span class="small text-muted-custom d-block">Durasi Program</span>
+            <strong class="text-navy fs-6" id="pkgDuration">Full Day</strong>
+          </div>
+          <div class="col-6 col-md-3 border-end">
+            <div class="text-sky fs-3 mb-1"><i class="bi bi-geo-alt-fill"></i></div>
+            <span class="small text-muted-custom d-block">Lokasi Utama</span>
+            <strong class="text-navy fs-6" id="pkgRegionText">Malang / Batu</strong>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="text-sky fs-3 mb-1"><i class="bi bi-patch-check-fill"></i></div>
+            <span class="small text-muted-custom d-block">Layanan Admin</span>
+            <strong class="text-success fs-6"><i class="bi bi-whatsapp me-1"></i>Fast Response 24/7</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTENT DETAIL: FASILITAS, BENEFIT & RUNDOWN ============ -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-8">
+          <!-- Gambar Utama -->
+          <div class="rounded-card overflow-hidden shadow-navy mb-5" style="height: 360px;">
+            <img class="w-100 h-100" style="object-fit:cover;" id="pkgImage" src="" alt="" />
+          </div>
+
+          <!-- Benefit & Keunggulan -->
+          <div class="mb-5">
+            <h2 class="fs-3 mb-4 text-navy"><i class="bi bi-stars text-warning me-2"></i>Benefit &amp; Keunggulan Program</h2>
+            <div class="row g-3" id="pkgBenefitsList">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+
+          <!-- Fasilitas & What's Included -->
+          <div class="mb-5">
+            <h2 class="fs-3 mb-4 text-navy"><i class="bi bi-box-seam-fill text-sky me-2"></i>Fasilitas Termasuk (What's Included)</h2>
+            <div class="row g-3" id="pkgFacilitiesList">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+
+          <!-- Contoh Rundown / Itinerary -->
+          <div class="mb-5">
+            <h2 class="fs-3 mb-4 text-navy"><i class="bi bi-calendar-week-fill text-sky me-2"></i>Contoh Susunan Acara (Rundown)</h2>
+            <div class="card-oj p-4">
+              <div class="rundown-timeline" id="pkgRundownList">
+                <!-- Rendered dynamically -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SIDEBAR CTA & ADMIN INFO -->
+        <div class="col-lg-4">
+          <div class="card-oj p-4 mb-4 sticky-top" style="top: 100px;">
+            <span class="badge bg-success-subtle text-success fw-bold text-uppercase mb-2" style="font-size:0.75rem;"><i class="bi bi-check-circle-fill me-1"></i> Siap Booking &amp; Fast Response</span>
+            <h3 class="fs-5 text-navy mb-3">Konsultasi &amp; Pemesanan</h3>
+            <p class="small text-muted-custom mb-4">
+              Hubungi Admin WhatsApp kami untuk menyesuaikan tanggal acara, pilihan lokasi venue, serta permintaan proposal resmi.
+            </p>
+
+            <a class="btn btn-orange w-100 py-3 mb-3" href="#" id="waPkgSideBtn">
+              <i class="bi bi-whatsapp me-2 fs-5"></i>Pesan via WhatsApp Admin
+            </a>
+
+            <div class="border-top pt-3">
+              <div class="d-flex align-items-center gap-2 text-muted-custom small mb-2">
+                <i class="bi bi-shield-check text-sky fs-5"></i>
+                <span>Tanpa Biaya Tersembunyi</span>
+              </div>
+              <div class="d-flex align-items-center gap-2 text-muted-custom small mb-2">
+                <i class="bi bi-file-earmark-pdf text-sky fs-5"></i>
+                <span>Proposal Custom Tersedia</span>
+              </div>
+              <div class="d-flex align-items-center gap-2 text-muted-custom small">
+                <i class="bi bi-headset text-sky fs-5"></i>
+                <span>Layanan Admin 24 Jam</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer-oj py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="fw-bold fs-4 text-white mb-3">Outbound<span class="text-orange">Jatim</span></div>
+        <p class="small">Mitra strategis pengembangan SDM melalui pengalaman luar ruang yang transformatif di Malang, Batu, Mojokerto, dan Banyuwangi.</p>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h4 class="mb-3">Navigasi</h4>
+        <ul class="list-unstyled small">
+          <li class="mb-2"><a href="tentang.html">Tentang Kami</a></li>
+          <li class="mb-2"><a href="paket.html">Paket Outbound</a></li>
+          <li class="mb-2"><a href="blog.html">Blog &amp; Insight</a></li>
+          <li class="mb-2"><a href="kontak.html">Kontak Kami</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h4 class="mb-3">Wilayah</h4>
+        <ul class="list-unstyled small">
+          <li class="mb-2">Malang</li>
+          <li class="mb-2">Batu</li>
+          <li class="mb-2">Mojokerto</li>
+          <li class="mb-2">Banyuwangi</li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h4 class="mb-3">Kantor Operasional</h4>
+        <p class="small mb-1"><i class="bi bi-geo-alt me-2"></i>Jl. Raya Oro-Oro Ombo No. 9, Kota Batu, Jawa Timur 65316</p>
+        <p class="small mb-1"><i class="bi bi-whatsapp me-2"></i><a href="#" data-wa-message="Halo Admin Outbound Jatim, saya ingin bertanya.">0851-5687-2655</a></p>
+      </div>
+    </div>
+    <hr class="border-white-50 my-4" />
+    <p class="small text-center text-white-50 mb-0">&copy; <span class="current-year">2026</span> Outbound Jatim.</p>
+  </div>
+</footer>
+
+<a class="wa-float" href="#" data-wa-message="Halo Admin Outbound Jatim, saya ingin bertanya tentang paket." aria-label="Chat via WhatsApp">
+  <i class="bi bi-whatsapp"></i>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/paket.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const pkgId = urlParams.get("id") || "batu-premium";
+    const pkg = getPackageById(pkgId);
+
+    if (pkg) {
+      document.title = pkg.title + " - Detail Paket Outbound Jatim";
+      document.getElementById("pkgPageTitle").textContent = pkg.title + " - Outbound Jatim";
+      document.getElementById("pkgTitle").textContent = pkg.title;
+      document.getElementById("pkgDesc").textContent = pkg.desc;
+      document.getElementById("pkgPax").textContent = pkg.pax;
+      document.getElementById("pkgDuration").textContent = pkg.duration;
+      
+      const regName = REGION_LABELS[pkg.region] || pkg.region;
+      document.getElementById("pkgRegionBadge").textContent = regName;
+      document.getElementById("pkgRegionBreadcrumb").textContent = regName;
+      document.getElementById("pkgRegionText").textContent = regName;
+
+      const imgEl = document.getElementById("pkgImage");
+      imgEl.src = pkg.image;
+      imgEl.alt = pkg.alt || pkg.title;
+
+      // Category chips
+      const chipsEl = document.getElementById("pkgCategoryChips");
+      chipsEl.innerHTML = pkg.categories.map(c => `<span class="badge bg-surface-container text-navy px-2.5 py-1 rounded-pill">${CATEGORY_LABELS[c] || c}</span>`).join(" ");
+
+      // Render Benefits
+      const benefitsContainer = document.getElementById("pkgBenefitsList");
+      if (pkg.benefits && pkg.benefits.length > 0) {
+        benefitsContainer.innerHTML = pkg.benefits.map(b => `
+          <div class="col-md-6">
+            <div class="card-oj p-3 d-flex align-items-start gap-2 h-100">
+              <i class="bi bi-check-circle-fill text-success fs-5 flex-shrink-0 mt-0.5"></i>
+              <span class="small fw-medium">${b}</span>
+            </div>
+          </div>
+        `).join("");
+      }
+
+      // Render Facilities
+      const facilitiesContainer = document.getElementById("pkgFacilitiesList");
+      if (pkg.facilities && pkg.facilities.length > 0) {
+        facilitiesContainer.innerHTML = pkg.facilities.map(f => `
+          <div class="col-md-6">
+            <div class="pkg-facility-card">
+              <div class="pkg-facility-icon"><i class="bi bi-patch-check-fill"></i></div>
+              <span class="small fw-semibold text-navy">${f}</span>
+            </div>
+          </div>
+        `).join("");
+      }
+
+      // Render Rundown
+      const rundownContainer = document.getElementById("pkgRundownList");
+      if (pkg.rundown && pkg.rundown.length > 0) {
+        rundownContainer.innerHTML = pkg.rundown.map(r => `
+          <div class="rundown-item">
+            <span class="badge bg-sky text-white mb-1" style="font-size:0.75rem;">${r.time}</span>
+            <h4 class="fs-6 text-navy mb-0">${r.activity}</h4>
+          </div>
+        `).join("");
+      }
+
+      // WhatsApp Buttons
+      const waMsg = "Halo Admin Outbound Jatim, saya tertarik dengan paket " + pkg.title + " (" + regName + "). Mohon informasi booking dan proposalnya.";
+      const waLinkUrl = waLink(waMsg);
+
+      const topBtn = document.getElementById("waPkgTopBtn");
+      if (topBtn) {
+        topBtn.setAttribute("href", waLinkUrl);
+        topBtn.setAttribute("target", "_blank");
+      }
+      const sideBtn = document.getElementById("waPkgSideBtn");
+      if (sideBtn) {
+        sideBtn.setAttribute("href", waLinkUrl);
+        sideBtn.setAttribute("target", "_blank");
+      }
+    }
+  });
+</script>
+</body>
+</html>

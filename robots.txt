@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://outboundjatim.co.id/sitemap.xml
