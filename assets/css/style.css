@@ -606,3 +606,96 @@ a {
   top: 0;
 }
 
+/* Custom Icon for Mountain (bi-mountain missing in Bootstrap Icons v1.11) */
+.bi-mountain::before {
+  content: "" !important;
+  font-family: inherit !important;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 1.5L1.2 13.8h13.6L8 1.5zm0 2.5L12.4 12H3.6L8 4z'/%3E%3Cpath d='M5 8.5L3.2 12h3.6L5 8.5z'/%3E%3C/svg%3E") no-repeat center / contain;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 1.5L1.2 13.8h13.6L8 1.5zm0 2.5L12.4 12H3.6L8 4z'/%3E%3Cpath d='M5 8.5L3.2 12h3.6L5 8.5z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+/* =========================================================
+   Blog & Article Formatting Styles
+   ========================================================= */
+.blog-content {
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: var(--color-on-surface);
+}
+
+.blog-content h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+  border-left: 4px solid var(--color-sky-blue);
+  padding-left: 0.85rem;
+}
+
+.blog-content h3 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-primary);
+}
+
+.blog-content p {
+  margin-bottom: 1.25rem;
+}
+
+.blog-quote {
+  background-color: var(--color-surface-container-low);
+  border-left: 5px solid var(--color-safety-orange);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 0.75rem 0.75rem 0;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.takeaways-box {
+  background-color: rgba(0, 174, 239, 0.08);
+  border: 1px solid rgba(0, 174, 239, 0.25);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.takeaways-box h4 {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.blog-table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+}
+
+.blog-table th {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.blog-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--color-surface-container-high);
+  font-size: 0.9rem;
+}
+
+.blog-table tr:nth-child(even) {
+  background-color: var(--color-surface-container-lowest);
+}
+
+
+

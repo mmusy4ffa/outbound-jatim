@@ -29,7 +29,7 @@ const PACKAGES = [
     pax: "20-500 Pax",
     duration: "Full Day / Stay",
     badge: "bestseller",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAEPxMCHgR-bpG5Oaq28F2zBWNwtknRmYe_UHuE0qLnhu1QqxUoC5uxlb0XDLN8t9xuCj1kKODanQWgpSeSp5djNREVuH9hu492RiWeMO0r_36VN6nMXcAvNdzlPgM9Xu4FHDRFy0EaufUVhR1Lr93HFuias955XZCCdbfz1viQ2I8HQcMIy0vPL04yd21djD-0T8ElKVXN8ZB5H3AbsUD8d-58MTg8n5hcg42k2n3GGz-9uwWYjaOA",
+    image: "assets/img/1000414856.webp",
     alt: "Fasilitas outbound resort di dataran tinggi Kota Batu dengan pemandangan pegunungan",
     benefits: [
       "Meningkatkan kolaborasi dan efisiensi komunikasi antar lini tim",
@@ -64,7 +64,7 @@ const PACKAGES = [
     pax: "30-200 Pax",
     duration: "2D1N Stay",
     badge: "bestseller",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuALhxzjqRbapPlnZMOivBfzw8UCHX4y3WwoqzXXiT5UW8309sQr5j1O_206LZ6cv3lkypYcHWEK7vjtc-gL6WjJxP5qqYq8GjpXwROx57YbAK-qW64fsVtarQhlfBakKrEPhCxS0lXF8MGl-QVzpwx8GVeDw71f_k-vEyoLJMlE49kegEFvCp3tN8UA7nYWyjaMt19dPNgkM-M0dh0mCVJx0MCW7xqOk2cvcMPuepgo_AXwSEZ7y-EH",
+    image: "assets/img/1000414857.webp",
     alt: "Sesi leadership training tim korporat di taman pegunungan Malang",
     benefits: [
       "Menggembleng resiliensi dan pengambilan keputusan cepat saat tekanan",
@@ -96,7 +96,7 @@ const PACKAGES = [
     pax: "20-300 Pax",
     duration: "Half Day",
     badge: "",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAtkygSk1LqVrQu4a3tYfoC9lTqTPWGLvsaTQojROcN-D5r2Zbv1MEKtV-Sdj2ShKAPv0eaYVaTinRMhmgxCCo8F6Xm15x-dQX7o64IFzGOmCe-XTqTn9jR7DWXIOx3oa1uxVmKAqLgfDv0p_uO4Sdep4BxCFqA9V0RZU5j3q10QKkJ8_VNdI8KvxqX401TiLcI8UZPiw_VlG6MFBFCT-8E5mGcV08_eF_Yg6d1m8O1DYNeBya9qk5q",
+    image: "assets/img/1000414858.webp",
     alt: "Panorama Sungai Kasembon Malang dengan pemandangan sawah hijau",
     benefits: [
       "Memacu adrenalin dan keberanian menghadapi ketidakpastian",
@@ -126,7 +126,7 @@ const PACKAGES = [
     pax: "30-250 Pax",
     duration: "Full Day",
     badge: "hotdeal",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCx2EK8zOQ9wfPvZ-_pBqkMcYbOI0twU01Qy9zKs5v0RzVkM53sJWldErSJQ2J1mNZaYHwkybjiDMYqMQ8Kx0u9_fLr9qclh8ZBNvJ4rv_ZVW_MH29_GJ_hbkWLTf-kWiLUrGJnJan0lnHwDYshxffmyHA3jlZlnHCAdKqlTmKqyW5B8PzafM1tP1bFVHh3ZxEoT6q02bJGcvrmCY4fPJK-qtnkZpcNsUlHWZ_18W9tdXxBULiGn9bW",
+    image: "assets/img/1000414863.webp",
     alt: "Aktivitas rafting arung jeram di Sungai Pekalen Jawa Timur",
     benefits: [
       "Paket petualangan paling komplet: Fun Outbound + Extreme Water Sport",
@@ -155,7 +155,7 @@ const PACKAGES = [
     pax: "10-100 Pax",
     duration: "2D1N Stay",
     badge: "",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAgvplwmt3AyxzOyiad07RJs5ldfpyljrjuJsuXv7Pn7ZHyoeYE6tkekMURhMVc-7esbLSPidAxSfKLeeMX3BOyMVeogPef1t_HJj9r7X80va1U71Z_KRNy5OcqPZ5UyuV2GlayCBUsLkzdrD84C4d01QNndZu-GF65iCadu3zmEWPJP00i4soJ8BbQkDRFwif3AFv_hDEVjaGLHBwrvRCs4kCXAysTRVGMxu_DehwTEYCTL-b0vWpg",
+    image: "assets/img/20260724_141514_0003.webp",
     alt: "Tim korporat berdiri di kawasan pegunungan Banyuwangi saat matahari terbit",
     benefits: [
       "Pengalaman unik mendaki salah satu kawah tercantik di dunia",
@@ -185,7 +185,7 @@ const PACKAGES = [
     pax: "20-150 Pax",
     duration: "Half Day",
     badge: "",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCLLZmK5VHFvMwwnJWmIqkBPIKgTj1bQJxAyjzl4V6a0LCnOVH9tQWpjwYitFT0_E-Gvg_pJsED4V31HZAgiyUKXupsKf7fse69ns_HGzvsCqWuOC66Qdw8EKkFP8Rz3dhG6HJQ4atStfXMwf4NhFMfp2j34XTqfAtE4DbZndfecNDU39S3aWIfKRuvfi5wCxAyZmV3kdXWcL11YcTpzkvciJ1DK1ytbTyywp887AuOyVi_HtFaK46_",
+    image: "assets/img/20260724_141514_0004.webp",
     alt: "Pemandangan Sungai Songgon Banyuwangi dikelilingi hutan tropis",
     benefits: [
       "Pengalaman susur sungai di tengah rimbunnya hutan pinus Songgon",
@@ -213,7 +213,7 @@ const PACKAGES = [
     pax: "20-200 Pax",
     duration: "Half Day",
     badge: "",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuASVy3KOIFpDC78dlTV-drKCBMxmeuG0d1-9amDscak6rZadyCeFMvXE9T6JUBTSKDJwFdhMIINB4rvypPAg0tVTtveHQeUS02-vF5eRNBj-yJCNmVFVO1iQoZxbRI5fBccI73Z51XV_g1QEXykwhPyBHyMKVV1AExuBavSAGug2zH8YvyUfJ16LiDBz0EOUPA_B-6j8QQSUN7GVJQ4gFwVvdUJbdT0uxQlhaVyJNdD-EFHOSi9JT5Z",
+    image: "assets/img/20260724_141514_0005.webp",
     alt: "Sungai Kromong di Pacet, Mojokerto dengan bebatuan alami dan air jernih",
     benefits: [
       "Lokasi sangat dekat dan mudah diakses dari Surabaya / Sidoarjo",
@@ -241,7 +241,7 @@ const PACKAGES = [
     pax: "30-300 Pax",
     duration: "Full Day",
     badge: "bestseller",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCQqMmSZDaWay2_pMsN1glzZgZWFE3zaMZ-4ERn7GEUTdHBYGLndOBXzmCZ3QRrbauar1flWP7wjELnQBCFihilByKFIWdu_537BR4ZLpbpPOzUT1-DDNiZj_P7SYcwtwCnl4sJzPn1UDg4zVAxGb_ElUiaatbbPkjqdB7c_rgS2C4AMcXQy_XDY8RCBB0OUzy92L5CtSfRkRZhis2ZdHkTw5nQ_YK03G9Y9HXeWl8ZihD2-Yk5_sCE",
+    image: "assets/img/20260724_141514_0006.webp",
     alt: "Sesi workshop dan brainstorming tim korporat di venue Trawas Mojokerto",
     benefits: [
       "Lokasi favorit Jawa Timur dengan pemandangan Gunung Penanggungan",
@@ -270,7 +270,7 @@ const PACKAGES = [
     pax: "10-80 Pax",
     duration: "2D1N Stay",
     badge: "hotdeal",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuANYrCfdoCGy-FtCIomCOo55F923mOf83l0K2amEwIynFaJuD0tJf7LpQG-RhOeFzJSjQgp9drfXzRgZrSi5gEjFt7qBpFsUIVLbJjzDDjaBRjSuWVptor9d5qCWSGmBDbSedb3_CtmYvq7tYteZNMNm3-s67IHd8uvNd0C3pCBhAx0Y03Eb1OzxWLhyb3lfmUx_S9N3DYgwEPKDqhnVG6MoRhMzrevWCNnZeOvl-xsYhmmy4L6-80x",
+    image: "assets/img/20260724_141514_0007.webp",
     alt: "Area glamping premium di kaki Gunung Arjuno kawasan Batu",
     benefits: [
       "Pengalaman berkemah mewah dengan kasur empuk dan fasilitas kamar mandi privat",
